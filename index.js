@@ -10,6 +10,10 @@
 * It should be a String.
 **/
 
+var firstName = "Jomari";
+var lastName = "Jacinto";
+var birthPlace = "glorious nippon";
+
 
 
 /**
@@ -21,6 +25,10 @@
 *
 * Their values should be a Number
 **/
+
+var favouriteNumber = "69";
+var currentYear = "2033";
+var thatOnePrinceSong = "1";
 
 
 
@@ -34,7 +42,9 @@
 * Their values should be a Boolean
 **/
 
-
+var isDaytime = false;
+var isLeftHanded = true;
+var inHawaii = true;
 
 /**
 * #4
