@@ -55,6 +55,9 @@ var inHawaii = true;
 * Their values should be a Null value
 **/
 
+var enrolledAtDevLeague = null
+var completedFridayPrep = null
+
 
 
 /**
@@ -66,6 +69,8 @@ var inHawaii = true;
 * which can be found along the west coast of The United States.
 **/
 
+var westCoast = ['California', 'Oregon', 'Washington'];
+
 
 
 /**
@@ -76,6 +81,8 @@ var inHawaii = true;
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
+
+var evenNumbers = ["2", "4", "6", "8", "10", "12", "14", "16", "18", "20"];
 
 
 
@@ -90,7 +97,7 @@ var inHawaii = true;
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
+var sumOfNumbers = (666/2*3-333)
 
 
 /**
@@ -109,6 +116,8 @@ var inHawaii = true;
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = "Tacocat"=="Tacocat"
+
 
 
 /**
@@ -125,7 +134,7 @@ var inHawaii = true;
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
+var generalContainer = 
 
 
 
@@ -141,7 +150,11 @@ var inHawaii = true;
 * Store the return value to a variable named `jumpResult`
 **/
 
-
+function jump (height){
+	if(height = 9){
+	console.log("You jumped 9 feet high!");
+}
+}
 
 /**
 * #7b
@@ -153,3 +166,8 @@ var inHawaii = true;
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook (ingredient1, ingredient2, recipeName){
+	if(ingredient1 + ingredient2 )
+}
+
+cook('Tomatoes', 'Cheese', 'Pizza')
