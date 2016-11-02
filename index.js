@@ -151,7 +151,7 @@ var generalContainer =
 **/
 
 function jump (height){
-	if(height = 9){
+	if(height > 0){
 	return "You jumped" + height + "feet high!";
 }
 }
