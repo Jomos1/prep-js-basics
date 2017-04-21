@@ -151,13 +151,12 @@ var generalContainer =
 **/
 
 function jump (height){
-	if(height > 0){
-	return "You jumped" + height + "feet high!";
+	if(height >0){
+	return console.log("You jumped " + height + " feet high" + "!");
 }
 }
 
-jump(9)
-
+jump (9)
 /**
 * #7b
 * Declare Functions
@@ -169,7 +168,7 @@ jump(9)
 **/
 
 function cook (ingredient1, ingredient2, recipeName){
-	return ingredient1 + "and" + ingredient2 + "make a" + recipeName
+	return console.log(ingredient1 + " and " + ingredient2 + " make a " + recipeName);
 }
 
 cook ('Tomatoes', 'Cheese', 'Pizza')
